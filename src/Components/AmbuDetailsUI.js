@@ -66,9 +66,9 @@ function AmbuDetailsUI() {
     <div className='intee'>
         {/* <h1 style={{ fontSize: "50px" }} className="lead text-center text-white">FINDING_AMBULANCES_NEAR_BY</h1> */}
      
-        <h1 style={{ fontSize: "35px"}} className="lead text-center text-white">Finding Ambulances NearBy.</h1>
+        <h1 style={{ fontSize: "50px"}} className="mt-3 lead text-center text-white">Finding Ambulances NearBy</h1>
         
-        <h1 style={{ fontSize: "50px"}} className="lead text-center text-white">~We are here to help you~</h1>
+        {/* <h1 style={{ fontSize: "50px"}} className="lead text-center text-white">~We are here to help you~</h1> */}
         <div className='m-4'>
             <h3 className='lead'>Enter range in kms</h3>
             <input

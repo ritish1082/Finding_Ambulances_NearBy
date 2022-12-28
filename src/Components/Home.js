@@ -2,6 +2,7 @@ import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import AmbuDetailsUI from './AmbuDetailsUI.js';
 import HospiDetailsUI from './HospiDetailsUI.js';
+import "./Intee.css";
 
 const Home = () => {
     return (
@@ -11,9 +12,12 @@ const Home = () => {
                     <Route path='/ambudetails' element={<AmbuDetailsUI />} />
                     <Route path='/hospidetails' element={<HospiDetailsUI />} />
                 </Routes>
-                <h1 style={{fontSize: "60px", textAlign: "center", marginTop: "4px" }} className='lead text-white'>
+                
+                    <h1 style={{fontSize: "60px", textAlign: "center", marginTop: "4px" }} className='lead text-white'>
                     <b>Welcome to Life Networks..</b>
                 </h1>
+
+                
                 <hr className='w-50 mx-auto'></hr>
                 <br></br>
                 <div fluid='md' className='container'>

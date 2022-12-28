@@ -1,49 +1,12 @@
-// import logo from './logo.svg';
-// import './App.css';
-// import AmbulanceDetailsUI from './Components/AmbuDetailsUI';
-// import { Routes, Route, Link } from 'react-router-dom';
-// import './Components/Intee.css'
-// function App() {
-//   return (
-    
-//     <div className='intee mt-0'>
-      
-//       <AmbulanceDetailsUI/>
-      
-
-//     </div>
-    
-    
-//   );
-// }
-
-// export default App;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 import './App.css';
 import {Navbar, Container, Nav, OverlayTrigger, Tooltip} from 'react-bootstrap';
 import Home from './Components/Home'
-// import Profile from './pages/Profile'
 import AmbuDetailsUI from './Components/AmbuDetailsUI';
 import HospiDetailsUI from './Components/HospiDetailsUI';
 import { Routes, Route, Link } from 'react-router-dom';
-// import {Routes, Route} from 'react-router-dom';
 import "./Components/Intee.css";
 
 function App() {
